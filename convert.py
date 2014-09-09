@@ -1,6 +1,7 @@
 import csv
 from icalendar import Calendar, Event
 import datetime
+import time
 
 class Convert():
     # Initialize some configs
@@ -36,8 +37,8 @@ class Convert():
         for row in self.csv_data:
             event = Event()
             event.add('summary', row[self.NAME])
-#            event.add('dtstart', datetime.datetime.strptime(row[self.START_DATE], '%n/%j/%Y %H:%i:%s').date())
-            event.add('dtend',  datetime.datetime.strptime(row[self.END_DATE], '%m/%d/%Y'))
+#            event.add('dtstart', time.strptime(row[self.START_DATE], '%m/%d/%Y %H:%M:%S'))
+#            event.add('dtend',  time.strptime(row[self.END_DATE], '%m/%d/%Y'))
             event.add('description', row[self.DESCRIPTION])
             event.add('location', row[self.LOCATION])
             self.cal.add_component(event)

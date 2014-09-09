@@ -2,8 +2,7 @@ BEGIN:VCALENDAR
 BEGIN:VEVENT
 SUMMARY:The Pluckin Nutz 
 DESCRIPTION:Acoustic concert\, no cover
-LOCATION:Sumtur Amphitheater\, 11691 S. 108th St.\, Papillion\, 402-597-20
- 41
+LOCATION:Sumtur Amphitheater\, 11691 S. 108th St.\, Papillion\, 402-597-2041
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Mike Gurciullo and His Las Vegas Lab Band
@@ -17,8 +16,7 @@ LOCATION:Zoo Bar\, 136 N. 14th St.\, Lincoln\, 402-435-8754
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Dizzy Wright with Jarren Benton\, TekniQue
-DESCRIPTION:Rap show\, $20 in advance\, $22 day of show\, $50 meet and gre
- et
+DESCRIPTION:Rap show\, $20 in advance\, $22 day of show\, $50 meet and greet
 LOCATION:Slowdown\, 729 N. 14th St.\, 402-345-7569
 END:VEVENT
 BEGIN:VEVENT
