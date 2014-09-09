@@ -22,6 +22,7 @@ class Convert():
         
     # Read the csv file
     #
+
     def read_csv(self):
         csv_reader = csv.reader(open(self.CSV_FILE_LOCATION, 'rb'), delimiter='\t')
         for row in csv_reader:
