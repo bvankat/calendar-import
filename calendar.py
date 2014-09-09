@@ -11,8 +11,8 @@ from convert import Convert
 from datetime import datetime, timedelta
 
 convert = Convert()
-convert.CSV_FILE_LOCATION = '/home/mwynn/csv.csv'
-convert.SAVE_LOCATION = '/home/mwynn/calendar-converted.ics'
+convert.CSV_FILE_LOCATION = 'home/mwynn/csv.csv'
+convert.SAVE_LOCATION = 'home/mwynn/calendar-converted.ics'
 
 convert.read_csv()
 
